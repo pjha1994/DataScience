@@ -31,3 +31,4 @@ my.environment$x
 my.environment$'x'
 get('x',my.environment)
 get('x',globalenv())
+parent.env(my.environment)
