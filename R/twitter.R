@@ -14,5 +14,5 @@ access_token_secret <- "CHNVb5TU28UkYJNVJZ87N03wnEdtsviXgyKR8Wyp98dQ9"
 
 setup_twitter_oauth(api_key,api_secret)
 
-searchTwitter("modi",n=30)
+searchTwitter("machine learning",n=30)
 
