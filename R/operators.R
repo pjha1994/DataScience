@@ -67,3 +67,7 @@ student.marks+s
 
 student.marks<-c(10,20,30,40)
 student.marks<-student.marks+5
+student.marks>30 & student.marks<50
+student.chemisty.marks<-c(20,40,30,50)
+student.physics.marks<-c(30,30,50,20)
+student.total.marks<-student.physics.marks+student.chemisty.marks
