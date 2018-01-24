@@ -51,3 +51,19 @@ TRUE & FALSE
 
 
 #vectorized operations
+student.marks <- c(10,20,30,40)
+
+student.marks[1]
+k<-mean(student.marks)
+
+
+sqrt(student.marks)
+stduent.marks**2
+student.marks/student.marks[3]
+
+s<-c(1,2)
+student.marks+s
+
+
+student.marks<-c(10,20,30,40)
+student.marks<-student.marks+5
