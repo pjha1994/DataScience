@@ -15,3 +15,17 @@ for(row in 1:nrow(student.marks)){
   }
   result[row]<-sum
 }
+result
+k<-apply(student.marks,1,sum)
+typeof(str(k))
+apply(student.marks, 1, max)
+colnames(student.marks)[apply(student.marks, 1, which.max)]
+
+apply(student.marks, 2, mean)
+apply(student.marks, 2, max)
+rownames(student.marks)[apply(student.marks, 2, which.max)]
+s<-apply(student.marks, 1:2, function(x) x >=82)
+typeof(s)
+typeof(rownames(student.marks)[apply(student.marks, 2, which.max)])
+typeof(apply(student.marks, 2, which.max))
+rownames(student.marks)[4]
