@@ -1,0 +1,8 @@
+library(datasets)
+data("iris")
+str(iris)
+head(iris)
+mean(iris$Sepal.Length)
+mean(iris$Sepal.Width)
+median(iris$Sepal.Length)
+median(iris$Sepal.Width)
