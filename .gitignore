@@ -1,3 +1,5 @@
 R/data/
 *.txt
 *.csv
+R/R1/.RData
+R/R1/.Rhistory
