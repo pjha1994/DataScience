@@ -3,3 +3,4 @@ R/data/
 *.csv
 R/R1/.RData
 R/R1/.Rhistory
+*.jpeg
