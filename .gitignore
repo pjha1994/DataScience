@@ -5,3 +5,5 @@ R/data1/
 R/R1/.RData
 R/R1/.Rhistory
 *.jpeg
+*.RData
+*.rds
