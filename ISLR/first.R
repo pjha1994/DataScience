@@ -176,4 +176,5 @@ identify (horsepower ,mpg ,name)
 summary(Auto)
 savehistory()
 loadhistory()
-q()
+#q()
+
