@@ -84,7 +84,7 @@ sessionInfo()
 #install.packages("car",dependencies=TRUE)
 #install.packages("car", dependencies=TRUE, repos='http://cran.rstudio.com/')
 library(tools)
-db <- CRAN_package_db()
+#db <- CRAN_package_db()
 #db
 version
 
